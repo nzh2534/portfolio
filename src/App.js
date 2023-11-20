@@ -1,6 +1,5 @@
-import {CollapsibleNavbar, Home, Transition, Summary, Projects} from './components/index';
-// import { Route, Routes } from 'react-router-dom';
-// import Container from 'react-bootstrap/Container';
+import {CollapsibleNavbar, Home, Footer, Template} from './components/index';
+import { Route, Routes } from 'react-router-dom';
 import myData from './projects.json';
 
 
@@ -12,19 +11,12 @@ function App() {
 
   return (
     <Container>
-    <CollapsibleNavbar/>
-    <Home />
-    <Transition figure={1}/>
-    <Summary count={projects.length}/>
-    <Transition figure={2}/>
-    <Projects projects={projects}/>
-    {/* <Container style={{height: '80vh', width: '100%'}}>
+      <CollapsibleNavbar/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/resume" element={<Home />} />
+        <Route path="/" element={<Home projects={projects}/>} />
+        <Route path="/project/:id" element={<Template projects={projects}/>} />
       </Routes>
-    </Container> */}
+      <Footer />
     </Container>
   );
 }

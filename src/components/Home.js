@@ -4,12 +4,14 @@ import Image from 'react-bootstrap/Image';
 import { faFlaskVial, faScrewdriverWrench, faSeedling } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Home() {
-return (
-<Container className="portfolio-home" style={{marginTop: "10vh"}}>
+import {Transition, Summary, Projects} from './index';
+
+function Home({projects}) {
+return (<Container>
+    <Container className="portfolio-home" style={{marginTop: "10vh"}}>
     <Row>
         <Col className="portfolio-header">
-            <header style={{marginBottom: "2vh"}}>
+            <header style={{marginBottom: "2vh", textAlign: "center"}}>
                 Welcome to Noah's Portfolio
             </header>
             <ul style={{listStyleType: "none"}}>
@@ -22,6 +24,11 @@ return (
             <Image src="https://file.rendit.io/n/g2aUEFs8524D6MVQB42Y.svg" className="w-min" style={{height: "40vh"}}/>
         </Col>
     </Row>
+    </Container>
+    <Transition figure={1}/>
+    <Summary count={projects.length}/>
+    <Transition figure={2}/>
+    <Projects projects={projects}/>
 </Container>
     );
 }

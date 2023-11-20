@@ -16,18 +16,17 @@ function CollapsibleNavbar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
+            <Nav.Link href="../#projects">Projects</Nav.Link>
           </Nav>
           <Nav>
-            <Image src="https://file.rendit.io/n/KrpDCKYOjCA8tQ7NcSlN.svg" style={{maxHeight: "5vh", marginRight: "4vw"}}/>
+            <Image src="https://file.rendit.io/n/KrpDCKYOjCA8tQ7NcSlN.svg" style={{maxHeight: "5vh"}}/>
           </Nav>
           <Nav>
-            <a href="https://github.com/nzh2534" className='socials'>
-              <FontAwesomeIcon className="icon" size="2xl" icon={faGithub} style={{marginRight: "2vw"}}/>
+            <a href="https://github.com/nzh2534" target="_blank" className='socials'>
+              <FontAwesomeIcon className="icon" size="2xl" icon={faGithub} color="black" style={{marginRight: "2vw"}}/>
             </a>
-            <a href="https://www.linkedin.com/in/noah-haglund-5b9704198/" className='socials'>
-              <FontAwesomeIcon className="icon" size="2xl" icon={faLinkedin} style={{marginRight: "6vw"}}/>
+            <a href="https://www.linkedin.com/in/noah-haglund-5b9704198/" target="_blank" className='socials'>
+              <FontAwesomeIcon className="icon" size="2xl" icon={faLinkedin} color="black" style={{marginRight: "6vw"}}/>
             </a>
           </Nav>
         </Navbar.Collapse>

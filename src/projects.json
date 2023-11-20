@@ -2,94 +2,165 @@
     "projects" : [
         {
             "name": "Computer Vision PDF Extractor",
-            "brief": "Trained and Deployed a custom Detectron2 Model for Object Detection using PDF documents",
-            "description": "",
-            "symbol": "medium",
-            "link": ""
+            "brief": "Trained a custom Detectron2 Model for Object Detection using PDF documents. Deployed in a React/Django application",
+            "symbol": "solution",
+            "link": "/project/0",
+            "carousel" : [
+                {
+                    "link": "pdf_detection.png",
+                    "text": "object detection using a custom Detectron2 model for PDF structure identification"
+                },
+                {
+                    "link": "structure_breakdown.png",
+                    "text": "PDF document broken down into a relational data structure based on headers and content and stored in a Django backend"
+                },
+                {
+                    "link": "proposer_product_image.png",
+                    "text": "a React/Django application hosted on Heroku/AWS that lets users drag and drop PDF sections into a compliance checklist, query ChatGPT based on PDF contents, and automate an application for a given US Government solicitation (NOFO)"
+                }
+            ]
         },
         {
             "name": "Custom US Government Grant Database Reports",
             "brief": "Custom HTML/CSS/JS reports pulling data with Python and templating reports using Jinja2",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "symbol": "github",
+            "link": "https://github.com/nzh2534/usg_reports"
         },
         {
             "name": "Salesforce/JitBit Database Automation",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "Built a data pipeline that collected data from regional offices and stored them in HQ Salesforce/JitBit databases",
+            "symbol": "solution",
+            "link": "/project/2",
+            "carousel" : [
+                {
+                    "link": "staff.png",
+                    "text": "recieved data from international offices and used this to filter through a list of 200+ staff to be tagged in databse entries"
+                },
+                {
+                    "link": "ticket_comment.png",
+                    "text": "used data to post custom ticket entries via JitBit API"
+                },
+                {
+                    "link": "salesforce.png",
+                    "text": "used data to post custom Salesforce entries"
+                }
+            ]
         },
         {
             "name": "US Government and USAID Market Share Dashboard",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "HTML/CSS/JavaScript website used as a dashboard for Plotly graphs made with Python.",
+            "symbol": "github",
+            "link": "https://nzh2534.github.io/Market-Share-Website/"
         },
         {
             "name": "USAID NOFO Compliance Tool",
             "brief": "A Python Algorithm that breaks down a USAID NOFO document into a relational data structure",
-            "description": "",
             "symbol": "github",
             "link": "https://github.com/nzh2534/ComplianceTool"
         },
         {
             "name": "Neural Networks for PDF Document Structure Recognition",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "Convolutional Neural Networks trained on custom PDF data (text, characteristics, and layout) to infer document structure",
+            "symbol": "github",
+            "link": "https://github.com/nzh2534/pdfneuralnets"
         },
         {
             "name": "Approval Process Power BI Tool",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "Designed and deployed an automated approvals process using Power BI, JitBit API, and Python",
+            "symbol": "solution",
+            "link": "/project/6",
+            "carousel" : [
+                {
+                    "link": "comment_python.png",
+                    "text": "collected user comments using JitBit API and Python"
+                },
+                {
+                    "link": "cloud_function.png",
+                    "text": "hosted the Python script in the cloud and scheduled it hourly using Google Cloud Platform"
+                },
+                {
+                    "link": "pbi_report.png",
+                    "text": "generated dynamically formatted reports based off the data in Power BI"
+                }
+            ]
         },
         {
             "name": "Power BI Web Service M Queries",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "Created numerous US Government data pipelines for Power BI using M",
+            "symbol": "github",
+            "link": "https://github.com/nzh2534/M_Queries"
         },
         {
             "name": "US Government Solicitation Analysis",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "Pulled, scraped, and analyzed public USG solicitation documents",
+            "symbol": "data",
+            "link": "/project/8",
+            "carousel" : [
+                {
+                    "link": "nofo_scrape_pdfs.png",
+                    "text": "pulled 150+ USG solicitation documents from public databases using Python"
+                },
+                {
+                    "link": "sector_scrape.png",
+                    "text": "scraped the documents for words and phrases identified by subject matter experts"
+                },
+                {
+                    "link": "output.png",
+                    "text": "visualized word and phrase occurence labeled by sector in various reports"
+                }
+            ]
         },
         {
             "name": "World Bank Sector Analysis",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "Used Linear Regression to analyze World Bank funding trends",
+            "symbol": "data",
+            "link": "/project/9",
+            "carousel" : [
+                {
+                    "link": "world_bank_python.png",
+                    "text": "annotated World Bank activity data using Python to tag sector related activities"
+                },
+                {
+                    "link": "linear_analysis.png",
+                    "text": "used Google Sheets statistics add ons to conduct Linear Regression analysis"
+                },
+                {
+                    "link": "linear_charts.png",
+                    "text": "visualized data, utilizing Linear Regression for predictive analysis"
+                }
+            ]
         },
         {
-            "name": "Google Sheets to Email Automation",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "name": "Google Sheets to Email Application",
+            "brief": "Used Google Sheets API with Python and an SMTP server to send thousands of custom emails to donors",
+            "symbol": "github",
+            "link": "https://github.com/nzh2534/Sheets-to-Email-Program"
         },
         {
             "name": "US Government Foreign Assistance Trends Report",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "Analyzed the full USG Foreign Assistance dataset for implementing partner, sector, and place of performance trends",
+            "symbol": "data",
+            "link": "/project/11",
+            "carousel" : [
+                {
+                    "link": "partner_csv.png",
+                    "text": "pulled the full USG Foreign Assistance dataset using Python and output various csv files for partner, sector, and place of performance spending by year"
+                },
+                {
+                    "link": "spending_overtime.png",
+                    "text": "determined trends (Pearson's R) for partner, sector, and place of performance variables overtime"
+                },
+                {
+                    "link": "usg_dashboard.png",
+                    "text": "created a Google Sheets dashboard for users to filter data by USG commitment totals and Pearson's R to view regional trends"
+                }
+            ]
         },
         {
             "name": "Country Specific Opportunity & Award Reports",
-            "brief": "",
-            "description": "",
-            "symbol": "",
-            "link": ""
+            "brief": "Custom HTML/CSS/JS reports pulling data with Python",
+            "symbol": "github",
+            "link": "https://github.com/nzh2534/country_reports"
         }
 
     ]
