@@ -1,0 +1,39 @@
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Image from 'react-bootstrap/Image';
+
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+function CollapsibleNavbar() {
+
+  return (
+    <Navbar collapseOnSelect bg="white" variant="light" style={{ marginTop: "4vh", width: '100%'}}>
+      <Container className='m-auto' style={{width: '100%'}}>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="/resume">Resume</Nav.Link>
+          </Nav>
+          <Nav>
+            <Image src="https://file.rendit.io/n/KrpDCKYOjCA8tQ7NcSlN.svg" style={{maxHeight: "5vh", marginRight: "4vw"}}/>
+          </Nav>
+          <Nav>
+            <a href="https://github.com/nzh2534" className='socials'>
+              <FontAwesomeIcon className="icon" size="2xl" icon={faGithub} style={{marginRight: "2vw"}}/>
+            </a>
+            <a href="https://www.linkedin.com/in/noah-haglund-5b9704198/" className='socials'>
+              <FontAwesomeIcon className="icon" size="2xl" icon={faLinkedin} style={{marginRight: "6vw"}}/>
+            </a>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default CollapsibleNavbar;

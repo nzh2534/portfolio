@@ -1,0 +1,96 @@
+{
+    "projects" : [
+        {
+            "name": "Computer Vision PDF Extractor",
+            "brief": "Trained and Deployed a custom Detectron2 Model for Object Detection using PDF documents",
+            "description": "",
+            "symbol": "medium",
+            "link": ""
+        },
+        {
+            "name": "Custom US Government Grant Database Reports",
+            "brief": "Custom HTML/CSS/JS reports pulling data with Python and templating reports using Jinja2",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "Salesforce/JitBit Database Automation",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "US Government and USAID Market Share Dashboard",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "USAID NOFO Compliance Tool",
+            "brief": "A Python Algorithm that breaks down a USAID NOFO document into a relational data structure",
+            "description": "",
+            "symbol": "github",
+            "link": "https://github.com/nzh2534/ComplianceTool"
+        },
+        {
+            "name": "Neural Networks for PDF Document Structure Recognition",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "Approval Process Power BI Tool",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "Power BI Web Service M Queries",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "US Government Solicitation Analysis",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "World Bank Sector Analysis",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "Google Sheets to Email Automation",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "US Government Foreign Assistance Trends Report",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        },
+        {
+            "name": "Country Specific Opportunity & Award Reports",
+            "brief": "",
+            "description": "",
+            "symbol": "",
+            "link": ""
+        }
+
+    ]
+}
