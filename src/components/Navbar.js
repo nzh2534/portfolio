@@ -25,7 +25,7 @@ function CollapsibleNavbar() {
               <FontAwesomeIcon className="icon" size="2xl" icon={faGithub} color="black" style={{marginRight: "2vw"}}/>
             </a>
             <a href="https://www.linkedin.com/in/noah-haglund-5b9704198/" target="_blank" className='socials'>
-              <FontAwesomeIcon className="icon" size="2xl" icon={faLinkedin} color="black" style={{marginRight: "6vw"}}/>
+              <FontAwesomeIcon className="icon" size="2xl" icon={faLinkedin} color="black"/>
             </a>
           </Nav>
         </Navbar.Collapse>
