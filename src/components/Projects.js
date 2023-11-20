@@ -4,10 +4,10 @@ import Col from 'react-bootstrap/Col';
 import FlippableCard from './flippable-card';
 
 function Projects({projects}) {
-return (<Container style={{marginBottom: "2vh"}}>
-    <Row style={{marginTop: "2vh"}} md={5} className='g-0'>
+return (<Container fluid style={{marginBottom: "2vh"}}>
+    <Row style={{marginTop: "2vh"}} className='g-0'>
       {projects.map((x) => 
-        <Col><FlippableCard front={x.name} back={x.brief} symbol={x.symbol} link={x.link}/></Col>
+        <Col lg={3}><FlippableCard front={x.name} back={x.brief} symbol={x.symbol} link={x.link}/></Col>
       )}
     </Row>
   </Container>);

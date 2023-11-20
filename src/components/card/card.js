@@ -18,7 +18,8 @@ function Card({onClick, front, back, symbol, link}) {
         <div><a href={link} target="_blank"><FontAwesomeIcon className="icon" size="2xl" icon={symbolObj[symbol]} color="black" style={{marginTop: "1vh", cursor: "pointer"}}/></a></div>
       </div>
       <div className="card-front">
-        <Alert style={{width:"80%"}} variant='primary'>{front}</Alert>
+        {/* <Alert style={{width:"80%"}} variant='primary'>{front}</Alert> */}
+        {front}
       </div>
     </div>
   );

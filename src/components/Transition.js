@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image';
 function Transition({figure}) {
 return (<>{ (figure === 1) ? 
     <Container className='transition'>
-        <Image src="https://file.rendit.io/n/BCkFHW47H4OLxGe6jVNe.svg" style={{width: "25vw"}}/>
+        <Image src="https://file.rendit.io/n/BCkFHW47H4OLxGe6jVNe.svg" style={{width: "40vh"}}/>
     </Container>
     : (figure === 2) ?
     <Container className='transition2'>
