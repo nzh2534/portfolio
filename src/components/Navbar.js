@@ -15,8 +15,8 @@ function CollapsibleNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="../#projects">Projects</Nav.Link>
+            <Nav.Link href="/portfolio">Home</Nav.Link>
+            <Nav.Link href="/portfolio/#projects">Projects</Nav.Link>
           </Nav>
           <Nav>
             <Image src="https://file.rendit.io/n/KrpDCKYOjCA8tQ7NcSlN.svg" style={{maxHeight: "5vh"}}/>
