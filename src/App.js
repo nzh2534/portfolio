@@ -13,7 +13,7 @@ function App() {
       <CollapsibleNavbar/>
       <Routes>
         <Route path="/" element={<Home projects={projects}/>} />
-        <Route path="/project/:id" element={<Template projects={projects}/>} />
+        <Route path="/portfolio/project/:id" element={<Template projects={projects}/>} />
       </Routes>
       <Footer />
     </Container>
