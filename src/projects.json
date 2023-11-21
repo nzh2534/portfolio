@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "name": "Computer Vision PDF Extractor",
+            "name": "Machine Learning (Computer Vision) Full Stack Application",
             "brief": "Trained a custom Detectron2 Model for Object Detection using PDF documents. Deployed in a React/Django application",
             "symbol": "solution",
             "link": "#/project/0",
@@ -59,7 +59,7 @@
             "link": "https://github.com/nzh2534/ComplianceTool"
         },
         {
-            "name": "Neural Networks for PDF Document Structure Recognition",
+            "name": "Machine Learning (Neural Networks) for PDF Document Structure Recognition",
             "brief": "Convolutional Neural Networks trained on custom PDF data (text, characteristics, and layout) to infer document structure",
             "symbol": "github",
             "link": "https://github.com/nzh2534/pdfneuralnets"
