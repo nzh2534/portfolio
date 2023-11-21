@@ -13,7 +13,7 @@ function Footer() {
         <Navbar.Toggle className='m-auto m-0' aria-controls="responsive-footer-nav" />
         <Navbar.Collapse className='m-auto m-0' id="responsive-footer-nav">
             <Nav>
-              coded and designed using
+              coded and designed from scratch by Noah using
             </Nav>
             <Nav>
               <Nav.Link href="https://react.dev/" target="_blank">

@@ -1,6 +1,6 @@
 import "./card.css";
 import "./flip-transition.css";
-import Alert from 'react-bootstrap/Alert';
+import {Alert, Button} from 'react-bootstrap';
 
 import { faGithub, faLinkedin, faMedium} from "@fortawesome/free-brands-svg-icons";
 import { faFlaskVial, faScrewdriverWrench} from "@fortawesome/free-solid-svg-icons";
@@ -18,7 +18,13 @@ function Card({onClick, front, back, symbol, link}) {
     <div className="card" onMouseEnter={onClick}>
       <div className="card-back">
         <div>{back}</div>
-        <div><a href={link} target="_blank"><FontAwesomeIcon className="icon" size="2xl" icon={symbolObj[symbol]} color="black" style={{marginTop: "1vh", cursor: "pointer"}}/></a></div>
+        <div style={{marginTop: "1vh", cursor: "pointer"}}>
+          <a href={link} target="_blank">
+            <Button>
+            <FontAwesomeIcon className="icon" size="2xl" icon={symbolObj[symbol]} color="white"/>
+            </Button>
+          </a>
+        </div>
       </div>
       <div className="card-front">
         <Alert style={{width:"80%"}} variant='primary'>{front}</Alert>

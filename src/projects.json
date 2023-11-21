@@ -34,15 +34,15 @@
             "carousel" : [
                 {
                     "link": "staff.png",
-                    "text": "recieved data from international offices and used this to filter through a list of 200+ staff to be tagged in databse entries"
+                    "text": "recieved data from international offices and used Python to filter through a predetermined list of 200+ staff to be tagged in databse entries"
                 },
                 {
                     "link": "ticket_comment.png",
-                    "text": "used data to post custom ticket entries via JitBit API"
+                    "text": "used Python to post custom ticket entries via JitBit API"
                 },
                 {
                     "link": "salesforce.png",
-                    "text": "used data to post custom Salesforce entries"
+                    "text": "used Python to post custom Salesforce entries"
                 }
             ]
         },
@@ -76,11 +76,11 @@
                 },
                 {
                     "link": "cloud_function.png",
-                    "text": "hosted the Python script in the cloud and scheduled it hourly using Google Cloud Platform"
+                    "text": "hosted and scheduled the Python script using Google Cloud Platform"
                 },
                 {
                     "link": "pbi_report.png",
-                    "text": "generated dynamically formatted reports based off the data in Power BI"
+                    "text": "generated dynamically formatted reports in Power BI using data pulled with Python"
                 }
             ]
         },
@@ -118,11 +118,11 @@
             "carousel" : [
                 {
                     "link": "world_bank_python.png",
-                    "text": "annotated World Bank activity data using Python to tag sector related activities"
+                    "text": "annotated World Bank activity data using Python to tag activities related to a given sector"
                 },
                 {
                     "link": "linear_analysis.png",
-                    "text": "used Google Sheets statistics add ons to conduct Linear Regression analysis"
+                    "text": "used statistical packages to conduct Linear Regression analyses"
                 },
                 {
                     "link": "linear_charts.png",
