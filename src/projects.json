@@ -2,7 +2,7 @@
     "projects" : [
         {
             "name": "Machine Learning (Computer Vision) Full Stack Application",
-            "brief": "Trained a custom Detectron2 Model for Object Detection using PDF documents. Deployed in a React/Django application",
+            "brief": "Trained a custom Detectron2 Model for Object Detection using PDF documents. Deployed in a React/Django application on AWS/Heroku",
             "symbol": "solution",
             "link": "#/project/0",
             "carousel" : [
