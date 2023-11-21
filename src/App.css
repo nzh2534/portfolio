@@ -123,5 +123,19 @@ body {
   white-space: nowrap;
 }
 
+.projectBtn::hover {
+  background-color: #708090;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: black;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #708090;
+}
+
 
 
