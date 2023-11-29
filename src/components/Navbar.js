@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faMedium } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function CollapsibleNavbar() {
@@ -21,6 +21,9 @@ function CollapsibleNavbar() {
             <Image src="https://file.rendit.io/n/KrpDCKYOjCA8tQ7NcSlN.svg" style={{maxHeight: "5vh"}}/>
           </Nav>
           <Nav>
+            <a href="https://medium.com/@noahhaglund" target="_blank" className='socials'>
+              <FontAwesomeIcon className="icon" size="2xl" icon={faMedium} color="black" style={{marginRight: "2vw"}}/>
+            </a>
             <a href="https://github.com/nzh2534" target="_blank" className='socials'>
               <FontAwesomeIcon className="icon" size="2xl" icon={faGithub} color="black" style={{marginRight: "2vw"}}/>
             </a>
