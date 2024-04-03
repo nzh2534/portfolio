@@ -1,6 +1,12 @@
 {
     "projects" : [
         {
+            "name": "Salesforce API & USAID Metrics to Google Sheets",
+            "brief": "Pull data from Salesforce API and USAID Business Forecast, wrangled using OOP, and posted to Google Sheets",
+            "symbol": "github",
+            "link": "https://github.com/nzh2534/sfbusinessreview"
+        },
+        {
             "name": "Machine Learning (Computer Vision) Full Stack Application",
             "brief": "Trained a custom Detectron2 Model for Object Detection using PDF documents. Deployed in a React/Django application on AWS/Heroku",
             "symbol": "solution",
@@ -161,13 +167,6 @@
             "brief": "Custom HTML/CSS/JS reports pulling data with Python",
             "symbol": "github",
             "link": "https://github.com/nzh2534/country_reports"
-        },
-        {
-            "name": "Salesforce API & USAID Business Forecast Metrics to Google Sheets",
-            "brief": "Pull data from Salesforce API and USAID Business Forecast, wrangled using OOP, and posted to Google Sheets",
-            "symbol": "github",
-            "link": "https://github.com/nzh2534/sfbusinessreview"
         }
-
     ]
 }
