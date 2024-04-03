@@ -161,6 +161,12 @@
             "brief": "Custom HTML/CSS/JS reports pulling data with Python",
             "symbol": "github",
             "link": "https://github.com/nzh2534/country_reports"
+        },
+        {
+            "name": "Salesforce API & USAID Business Forecast Metrics to Google Sheets",
+            "brief": "Pull data from Salesforce API and USAID Business Forecast, wrangled using OOP, and posted to Google Sheets",
+            "symbol": "github",
+            "link": "https://github.com/nzh2534/sfbusinessreview"
         }
 
     ]
