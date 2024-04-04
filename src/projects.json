@@ -10,7 +10,7 @@
             "name": "Machine Learning (Computer Vision) Full Stack Application",
             "brief": "Trained a custom Detectron2 Model for Object Detection using PDF documents. Deployed in a React/Django application on AWS/Heroku",
             "symbol": "solution",
-            "link": "#/project/0",
+            "link": "#/project/1",
             "carousel" : [
                 {
                     "link": "pdf_detection.png",
@@ -36,7 +36,7 @@
             "name": "Salesforce/JitBit Database Automation",
             "brief": "Built a data pipeline that collected data from regional offices and stored them in HQ Salesforce/JitBit databases",
             "symbol": "solution",
-            "link": "#/project/2",
+            "link": "#/project/3",
             "carousel" : [
                 {
                     "link": "staff.png",
@@ -74,7 +74,7 @@
             "name": "Approval Process Power BI Tool",
             "brief": "Designed and deployed an automated approvals process using Power BI, JitBit API, and Python",
             "symbol": "solution",
-            "link": "#/project/6",
+            "link": "#/project/7",
             "carousel" : [
                 {
                     "link": "comment_python.png",
@@ -100,7 +100,7 @@
             "name": "US Government Solicitation Analysis",
             "brief": "Pulled, scraped, and analyzed public USG solicitation documents",
             "symbol": "data",
-            "link": "#/project/8",
+            "link": "#/project/9",
             "carousel" : [
                 {
                     "link": "nofo_scrape_pdfs.png",
@@ -120,7 +120,7 @@
             "name": "World Bank Sector Analysis",
             "brief": "Used Linear Regression to analyze World Bank funding trends",
             "symbol": "data",
-            "link": "#/project/9",
+            "link": "#/project/10",
             "carousel" : [
                 {
                     "link": "world_bank_python.png",
@@ -146,7 +146,7 @@
             "name": "US Government Foreign Assistance Trends Report",
             "brief": "Analyzed the full USG Foreign Assistance dataset for implementing partner, sector, and place of performance trends",
             "symbol": "data",
-            "link": "#/project/11",
+            "link": "#/project/12",
             "carousel" : [
                 {
                     "link": "partner_csv.png",
