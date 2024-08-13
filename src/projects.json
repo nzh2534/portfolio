@@ -1,6 +1,18 @@
 {
     "projects" : [
         {
+            "name": "Organization-Wide Demand Data Analysis",
+            "brief": "Collected and visualized organization-wide demand data using Python/Jinja2 visuals deployed and updated in real-time for Executive Leadership",
+            "symbol": "github",
+            "link": "https://nzh2534.github.io/demandanalysis/"
+        },
+        {
+            "name": "Organization-Wide Capacity Data Analysis",
+            "brief": "Collected and visualized organization-wide capacity data using Python/Jinja2 visuals deployed and updated in real-time for Executive Leadership",
+            "symbol": "github",
+            "link": "https://nzh2534.github.io/capacityanalysis/"
+        },
+        {
             "name": "Salesforce API & USAID Metrics to Google Sheets",
             "brief": "Pull data from Salesforce API and USAID Business Forecast, wrangled using OOP, and posted to Google Sheets",
             "symbol": "github",
