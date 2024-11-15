@@ -1,32 +1,38 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0906f697.css",
-    "main.js": "/portfolio/static/js/main.6f71df94.js",
+    "main.js": "/portfolio/static/js/main.76c1c048.js",
     "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
+    "static/media/guardian3.png": "/portfolio/static/media/guardian3.8102049f3dbbea347823.png",
     "static/media/proposer_product_image.png": "/portfolio/static/media/proposer_product_image.481ee1e1261c497aef6e.png",
     "static/media/structure_breakdown.png": "/portfolio/static/media/structure_breakdown.e7b72707df040a1dbad6.png",
     "static/media/output.png": "/portfolio/static/media/output.bafbc003bbc0df0093fa.png",
     "static/media/pdf_detection.png": "/portfolio/static/media/pdf_detection.057766726d5a16a94bc2.png",
     "static/media/partner_csv.png": "/portfolio/static/media/partner_csv.a8df8a3cbcdf7a2dc01a.png",
     "static/media/usg_dashboard.png": "/portfolio/static/media/usg_dashboard.ff3477202d8c77925209.png",
+    "static/media/guardian2.png": "/portfolio/static/media/guardian2.e9156dd37d9e7690ceed.png",
     "static/media/world_bank_python.png": "/portfolio/static/media/world_bank_python.182f6f76ae3f928c4f6d.png",
     "static/media/spending_overtime.png": "/portfolio/static/media/spending_overtime.7e9bfdcbe63198e27fe0.png",
+    "static/media/modelhub2.png": "/portfolio/static/media/modelhub2.3813229dac550c5a6688.png",
     "static/media/linear_charts.png": "/portfolio/static/media/linear_charts.8e66a421f5c975e560fe.png",
     "static/media/staff.png": "/portfolio/static/media/staff.3354d7bb72b8b63f573c.png",
     "static/media/ticket_comment.png": "/portfolio/static/media/ticket_comment.619d1584988025e5e749.png",
+    "static/media/guardian1.png": "/portfolio/static/media/guardian1.279ac37c315eb16eeb35.png",
     "static/media/sector_scrape.png": "/portfolio/static/media/sector_scrape.0c6122878c221e5c5cac.png",
     "static/media/nofo_scrape_pdfs.png": "/portfolio/static/media/nofo_scrape_pdfs.fc4b6598849faae31174.png",
     "static/media/salesforce.png": "/portfolio/static/media/salesforce.76ad164790f189812186.png",
+    "static/media/modelhub3.png": "/portfolio/static/media/modelhub3.47ca5bb6996bb71a2bab.png",
+    "static/media/modelhub.png": "/portfolio/static/media/modelhub.448b61001001abae6c4d.png",
     "static/media/comment_python.png": "/portfolio/static/media/comment_python.6744668f89e6e6054bda.png",
     "static/media/linear_analysis.png": "/portfolio/static/media/linear_analysis.eee56d4112c34dc89879.png",
     "static/media/cloud_function.png": "/portfolio/static/media/cloud_function.dbca279739b394d1588b.png",
     "index.html": "/portfolio/index.html",
     "main.0906f697.css.map": "/portfolio/static/css/main.0906f697.css.map",
-    "main.6f71df94.js.map": "/portfolio/static/js/main.6f71df94.js.map",
+    "main.76c1c048.js.map": "/portfolio/static/js/main.76c1c048.js.map",
     "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0906f697.css",
-    "static/js/main.6f71df94.js"
+    "static/js/main.76c1c048.js"
   ]
 }
