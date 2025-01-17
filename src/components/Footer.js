@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Footer() {
 
   return (
-    <Navbar collapseOnSelect bg="white" variant="light" className='m-auto m-0' style={{ marginTop: "4vh", width: '100%'}}>
+    <Navbar collapseOnSelect bg="white" variant="light" className='m-auto m-0' style={{ marginTop: "4vh", width: '100%', zoom: "60%"}}>
         <Navbar.Toggle className='m-auto m-0' aria-controls="responsive-footer-nav" />
         <Navbar.Collapse className='m-auto m-0' id="responsive-footer-nav">
             <Nav>

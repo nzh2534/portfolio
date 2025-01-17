@@ -19,9 +19,9 @@ function CollapsibleNavbar() {
           <Nav>
             <Nav.Link href="/portfolio/">Home</Nav.Link>
           </Nav>
-          <Nav>
+          {/* <Nav>
             <Image src="https://file.rendit.io/n/KrpDCKYOjCA8tQ7NcSlN.svg" style={{maxHeight: "5vh"}}/>
-          </Nav>
+          </Nav> */}
           <Nav>
             <a href="https://medium.com/@noahhaglund" target="_blank" className='socials'>
               <FontAwesomeIcon className="icon" size="2xl" icon={faMedium} color="black" style={{marginRight: "2vw"}}/>

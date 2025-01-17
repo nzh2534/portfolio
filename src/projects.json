@@ -1,16 +1,50 @@
 {
     "projects" : [
         {
-            "name": "Organization-Wide Demand Data Analysis",
-            "brief": "Collected and visualized organization-wide demand data using Python/Jinja2 visuals deployed and updated in real-time for Executive Leadership",
-            "symbol": "github",
-            "link": "https://nzh2534.github.io/demandanalysis/"
+            "name": "Geospatial ML Application to Combat Human Trafficking",
+            "brief": "A Geospatial ML app used to track trafficking in the Philippines, made with Streamlit, Folium, and PostgreSQL hosted on Heroku.",
+            "symbol": "solution",
+            "link": "#/project/0",
+            "carousel" : [
+                {
+                    "link": "guardian1.png",
+                    "text": "scraped over a dozen public news and government websites for articles relating to human trafficking; articles were geocoded based on their focus using CLIFF geoparsing API"
+                },
+                {
+                    "link": "guardian2.png",
+                    "text": "notable tourism entities are tracked in the system to ensure their compliance against sex tourism"
+                },
+                {
+                    "link": "guardian3.png",
+                    "text": "articles are mapped using Folium; various areas are analyzed using ML to monitor trafficking trends"
+                }
+            ]
         },
         {
-            "name": "Organization-Wide Capacity Data Analysis",
-            "brief": "Collected and visualized organization-wide capacity data using Python/Jinja2 visuals deployed and updated in real-time for Executive Leadership",
+            "name": "ML/DL Model Hub",
+            "brief": "Trained over a dozen ML/DL models deployed on AWS Lambda. Models with high accuracy are benchmarked and accesible to others via a React UI.",
+            "symbol": "solution",
+            "link": "#/project/1",
+            "carousel" : [
+                {
+                    "link": "modelhub3.png",
+                    "text": "pulled, aggregated, cleaned, and trained models on ODK data using Jupyter Notebooks"
+                },
+                {
+                    "link": "modelhub2.png",
+                    "text": "deployed models with high validation accuracy to AWS Lambda, accesible via a React UI on Github Pages"
+                },
+                {
+                    "link": "modelhub.png",
+                    "text": "users can run the models for real-time inferencing"
+                }
+            ]
+        },
+        {
+            "name": "Organization-Wide Capacity/Demand Data Analysis",
+            "brief": "Collected and visualized organization-wide data using Python/Jinja2 visuals deployed and updated in real-time for Executive Leadership",
             "symbol": "github",
-            "link": "https://nzh2534.github.io/capacityanalysis/"
+            "link": "https://github.com/nzh2534/demandanalysis"
         },
         {
             "name": "Salesforce API & USAID Metrics to Google Sheets",
@@ -22,7 +56,7 @@
             "name": "Machine Learning (Computer Vision) Full Stack Application",
             "brief": "Trained a custom Detectron2 Model for Object Detection using PDF documents. Deployed in a React/Django application on AWS/Heroku",
             "symbol": "solution",
-            "link": "#/project/1",
+            "link": "#/project/4",
             "carousel" : [
                 {
                     "link": "pdf_detection.png",
@@ -48,7 +82,7 @@
             "name": "Salesforce/JitBit Database Automation",
             "brief": "Built a data pipeline that collected data from regional offices and stored them in HQ Salesforce/JitBit databases",
             "symbol": "solution",
-            "link": "#/project/3",
+            "link": "#/project/6",
             "carousel" : [
                 {
                     "link": "staff.png",
@@ -86,7 +120,7 @@
             "name": "Approval Process Power BI Tool",
             "brief": "Designed and deployed an automated approvals process using Power BI, JitBit API, and Python",
             "symbol": "solution",
-            "link": "#/project/7",
+            "link": "#/project/10",
             "carousel" : [
                 {
                     "link": "comment_python.png",
@@ -112,7 +146,7 @@
             "name": "US Government Solicitation Analysis",
             "brief": "Pulled, scraped, and analyzed public USG solicitation documents",
             "symbol": "data",
-            "link": "#/project/9",
+            "link": "#/project/12",
             "carousel" : [
                 {
                     "link": "nofo_scrape_pdfs.png",
@@ -132,7 +166,7 @@
             "name": "World Bank Sector Analysis",
             "brief": "Used Linear Regression to analyze World Bank funding trends",
             "symbol": "data",
-            "link": "#/project/10",
+            "link": "#/project/13",
             "carousel" : [
                 {
                     "link": "world_bank_python.png",
@@ -158,7 +192,7 @@
             "name": "US Government Foreign Assistance Trends Report",
             "brief": "Analyzed the full USG Foreign Assistance dataset for implementing partner, sector, and place of performance trends",
             "symbol": "data",
-            "link": "#/project/12",
+            "link": "#/project/15",
             "carousel" : [
                 {
                     "link": "partner_csv.png",
